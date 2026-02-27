@@ -1,3 +1,4 @@
+# Selenium automation script to automate the following process Login → Add to Cart → Checkout using the test website https://www.saucedemo.com/
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -113,4 +114,5 @@ try:
 
 finally:
     time.sleep(3)
+
     driver.quit()
